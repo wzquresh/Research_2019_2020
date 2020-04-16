@@ -1,0 +1,25 @@
+Lasso: alpha = 1
+sparse coef: 
+204
+train score: 0.9894648727674682
+test score: 0.1209004578459899
+
+
+
+
+
+Lasso: alpha = 0.1
+sparse coef: 
+236
+train score: 0.9998839624909895
+test score: 0.13781401209305666
+
+
+
+
+
+Lasso: alpha = 0.01
+sparse coef: 
+290
+train score: 0.9999988590985286
+test score: 0.07025231627055728

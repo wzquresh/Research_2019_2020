@@ -1,0 +1,82 @@
+
+ Model Scores: 
+KNeighbors:
+{'n_neighbors': 4}
+0.7701149425287356
+[[67  0]
+ [20  0]]
+              precision    recall  f1-score   support
+
+         0.0       0.77      1.00      0.87        67
+         1.0       0.00      0.00      0.00        20
+
+    accuracy                           0.77        87
+   macro avg       0.39      0.50      0.44        87
+weighted avg       0.59      0.77      0.67        87
+
+Random Forest:
+0.735632183908046
+[[61  6]
+ [17  3]]
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.91      0.84        67
+         1.0       0.33      0.15      0.21        20
+
+    accuracy                           0.74        87
+   macro avg       0.56      0.53      0.52        87
+weighted avg       0.68      0.74      0.70        87
+
+Logistic Regression:
+0.6896551724137931
+[[56 11]
+ [16  4]]
+              precision    recall  f1-score   support
+
+         0.0       0.78      0.84      0.81        67
+         1.0       0.27      0.20      0.23        20
+
+    accuracy                           0.69        87
+   macro avg       0.52      0.52      0.52        87
+weighted avg       0.66      0.69      0.67        87
+
+SVC:
+0.7701149425287356
+[[67  0]
+ [20  0]]
+              precision    recall  f1-score   support
+
+         0.0       0.77      1.00      0.87        67
+         1.0       0.00      0.00      0.00        20
+
+    accuracy                           0.77        87
+   macro avg       0.39      0.50      0.44        87
+weighted avg       0.59      0.77      0.67        87
+
+Ensemble Voting Classifier:
+0.7701149425287356
+[[67  0]
+ [20  0]]
+              precision    recall  f1-score   support
+
+         0.0       0.77      1.00      0.87        67
+         1.0       0.00      0.00      0.00        20
+
+    accuracy                           0.77        87
+   macro avg       0.39      0.50      0.44        87
+weighted avg       0.59      0.77      0.67        87
+
+LightGBM: 
+0.7701149425287356
+[[67  0]
+ [20  0]]
+              precision    recall  f1-score   support
+
+         0.0       0.77      1.00      0.87        67
+         1.0       0.00      0.00      0.00        20
+
+    accuracy                           0.77        87
+   macro avg       0.39      0.50      0.44        87
+weighted avg       0.59      0.77      0.67        87
+
+The rmse of prediction is:  0.422728623116803
